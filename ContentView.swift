@@ -9,6 +9,8 @@ struct ContentView: View {
             Text("Hello, world!")
             Text("Balls") + Text("Torture")
             Text("repo")
+            Rectangle()
+                .background(Circle())
         }
     }
 }
